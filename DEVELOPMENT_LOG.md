@@ -322,3 +322,17 @@ The core user request (compacted questions list in the living dated log) is comp
 - **How to verify**:
   - Visit the remote repository URL: `https://github.com/ripplewave2025/GorkhayAI`.
   - Run `git status` locally and verify that the branch is clean and up to date with `origin/main`.
+
+## 2026-06-14 — Vercel Build Fix & Dependency Alignment
+
+- **What was done**:
+  - Identified third-party modules used in codebase but missing in `package.json` (`framer-motion`, `lucide-react`, `sonner`, `jspdf`).
+  - Added the missing modules to `package.json` dependencies and updated `package-lock.json` using `npm install --package-lock-only` to avoid local resource-locking EBUSY errors.
+  - Successfully committed and pushed the updated package definitions to the remote repository.
+- **Why**: Fix the Vercel deployment build failures due to missing packages (`Module not found: Can't resolve 'framer-motion'`).
+- **Files changed**:
+  - [package.json](file:///c:/Users/FaradaysCage007/Desktop/2_PROJECTS/gorkhay_AI/package.json) (added dependencies)
+  - [package-lock.json](file:///c:/Users/FaradaysCage007/Desktop/2_PROJECTS/gorkhay_AI/package-lock.json) (locked versions)
+  - [DEVELOPMENT_LOG.md](file:///c:/Users/FaradaysCage007/Desktop/2_PROJECTS/gorkhay_AI/DEVELOPMENT_LOG.md) (logged Vercel build fixes)
+- **How to verify**:
+  - Deploy/trigger build on Vercel and check that it compiles successfully without dependency resolution errors.
