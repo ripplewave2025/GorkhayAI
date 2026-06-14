@@ -308,3 +308,17 @@ The core user request (compacted questions list in the living dated log) is comp
   - Choose any template from "Samples" or "Templates".
   - Verify that only a single "purpose" question is asked, with all profile details prefilled.
   - Verify that the generated letter begins with "To," and places sender details exclusively in the signature block at the bottom.
+
+## 2026-06-14 — GitHub Repository Sync & Repository Optimization
+
+- **What was done**:
+  - Excluded the `Data/Raw/` directory (containing over 200MB of raw `.xls` files) from git tracking by untracking them and updating `.gitignore` to ignore `/Data/Raw/`.
+  - Amended the initial implementation commit to keep the repository extremely lightweight and fast to sync.
+  - Successfully connected and pushed the complete codebase to the remote repository `https://github.com/ripplewave2025/GorkhayAI`.
+- **Why**: Push the implemented codebase to the user's remote repository as requested, optimizing payload size to prevent timeouts/rejections.
+- **Files changed**:
+  - [.gitignore](file:///c:/Users/FaradaysCage007/Desktop/2_PROJECTS/gorkhay_AI/.gitignore) (ignored `/Data/Raw/` directory)
+  - [DEVELOPMENT_LOG.md](file:///c:/Users/FaradaysCage007/Desktop/2_PROJECTS/gorkhay_AI/DEVELOPMENT_LOG.md) (recorded this repository push and optimization step)
+- **How to verify**:
+  - Visit the remote repository URL: `https://github.com/ripplewave2025/GorkhayAI`.
+  - Run `git status` locally and verify that the branch is clean and up to date with `origin/main`.
