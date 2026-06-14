@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "title": "Darjeeling District - Block Development Officers & Official Addressing Guide (June 2026)",
+    "district": "Darjeeling",
+    "state": "West Bengal",
+    "last_updated": "2026-06-12",
+    "source": "Official Darjeeling District Website (darjeeling.gov.in/divisions/block-development-officers/)",
+    "purpose": "Accurate, up-to-date reference for Gorkhay AI to help illiterate users write correct formal letters/applications to BDOs and Gram Panchayats.",
+    "general_guidance": {
+      "for_village_level_issues_certificates_complaints": "Write to The Pradhan of the specific Gram Panchayat",
+      "for_block_level_schemes_mgnrega_housing_pensions_escalated_issues": "Write to The Block Development Officer (BDO) of the concerned block",
+      "recommended_cc": "Often people also mark a copy to the District Magistrate, Darjeeling for important matters"
+    }
+  },
+  "blocks": [
+    {
+      "block_name": "Darjeeling – PulBazar",
+      "bdo": {
+        "name": "Shri Lalkpa Wangchu Sherpa",
+        "designation": "WBCS (EXE), Block Development Officer",
+        "email": "darj.pul.dev.block@gmail.com",
+        "phone": "Not publicly listed on official site"
+      },
+      "headquarters": "Bijanbari, Darjeeling",
+      "who_to_write_to": {
+        "primary_for_gp_issues": "The Pradhan, [Gram Panchayat Name] Gram Panchayat",
+        "primary_for_block_level": "The Block Development Officer, Darjeeling – PulBazar Development Block",
+        "escalation": "District Magistrate, Darjeeling or concerned department"
+      },
+      "standard_address_format": "The Block Development Officer\nDarjeeling – PulBazar Development Block\nBijanbari, P.O. Bijanbari\nDist. Darjeeling, West Bengal - 734201",
+      "notes": "Covers 23 Gram Panchayats including Lamahatta area is under Rangli Rangliot. Major hill block."
+    },
+    {
+      "block_name": "Darjeeling – Rangli Rangliot (Takdah)",
+      "bdo": {
+        "name": "Shri Manoj Kumar Pahari",
+        "designation": "WBCS (EXE), Block Development Officer",
+        "email": "bdotakdah@gmail.com",
+        "phone": "Not publicly listed on official site"
+      },
+      "headquarters": "Takdah, Darjeeling",
+      "who_to_write_to": {
+        "primary_for_gp_issues": "The Pradhan, [Gram Panchayat Name] Gram Panchayat (e.g. Lamahatta GP)",
+        "primary_for_block_level": "The Block Development Officer, Darjeeling – Rangli Rangliot Development Block",
+        "escalation": "District Magistrate, Darjeeling"
+      },
+      "standard_address_format": "The Block Development Officer\nDarjeeling – Rangli Rangliot Development Block\nTakdah, P.O. Takdah\nDist. Darjeeling, West Bengal - 734222",
+      "notes": "User's home block. Has good public GP contact data on bdotakdah.in. Covers Lamahatta GP."
+    },
+    {
+      "block_name": "Jorebunglow – Sukhia Pokhri",
+      "bdo": {
+        "name": "Shri Arghya Guha",
+        "designation": "WBCS (EXE), Block Development Officer",
+        "email": "bdosukhiapokhri@yahoo.in",
+        "phone": "Not publicly listed on official site"
+      },
+      "headquarters": "Sukhia Pokhri / Jorebunglow",
+      "who_to_write_to": {
+        "primary_for_gp_issues": "The Pradhan, [Gram Panchayat Name] Gram Panchayat",
+        "primary_for_block_level": "The Block Development Officer, Jorebunglow – Sukhia Pokhri Development Block",
+        "escalation": "District Magistrate, Darjeeling"
+      },
+      "standard_address_format": "The Block Development Officer\nJorebunglow – Sukhia Pokhri Development Block\nSukhia Pokhri, Dist. Darjeeling, West Bengal",
+      "notes": "Covers 16 Gram Panchayats. Popular tourist area (Ghum, Sonada side)."
+    },
+    {
+      "block_name": "Kurseong",
+      "bdo": {
+        "name": "Shri Koushik Chakraborty",
+        "designation": "WBCS (EXE), Block Development Officer",
+        "email": "bdokurseong@gmail.com",
+        "phone": "Not publicly listed on official site"
+      },
+      "headquarters": "Kurseong",
+      "who_to_write_to": {
+        "primary_for_gp_issues": "The Pradhan, [Gram Panchayat Name] Gram Panchayat",
+        "primary_for_block_level": "The Block Development Officer, Kurseong Development Block",
+        "escalation": "Sub-Divisional Officer, Kurseong or District Magistrate"
+      },
+      "standard_address_format": "The Block Development Officer\nKurseong Development Block\nKurseong, Dist. Darjeeling, West Bengal - 734203",
+      "notes": "Covers 15 Gram Panchayats. Important subdivision headquarters."
+    },
+    {
+      "block_name": "Mirik",
+      "bdo": {
+        "name": "Shri Debottom Sarkar",
+        "designation": "WBCS (EXE), Block Development Officer",
+        "email": "bdomirik@gmail.com",
+        "phone": "Not publicly listed on official site"
+      },
+      "headquarters": "Mirik",
+      "who_to_write_to": {
+        "primary_for_gp_issues": "The Pradhan, [Gram Panchayat Name] Gram Panchayat",
+        "primary_for_block_level": "The Block Development Officer, Mirik Development Block",
+        "escalation": "District Magistrate, Darjeeling"
+      },
+      "standard_address_format": "The Block Development Officer\nMirik Development Block\nMirik, Dist. Darjeeling, West Bengal - 734214",
+      "notes": "Covers 6 Gram Panchayats. Famous for Mirik Lake and tourism."
+    },
+    {
+      "block_name": "Matigara",
+      "bdo": {
+        "name": "Shri Biswajit Das",
+        "designation": "WBCS (EXE), Block Development Officer",
+        "email": "matigarablock@gmail.com",
+        "phone": "Not publicly listed on official site"
+      },
+      "headquarters": "Matigara / Siliguri",
+      "who_to_write_to": {
+        "primary_for_gp_issues": "The Pradhan, [Gram Panchayat Name] Gram Panchayat",
+        "primary_for_block_level": "The Block Development Officer, Matigara Development Block",
+        "escalation": "District Magistrate, Darjeeling or Siliguri authorities"
+      },
+      "standard_address_format": "The Block Development Officer\nMatigara Development Block\nMatigara, Dist. Darjeeling, West Bengal",
+      "notes": "Siliguri subdivision block. Covers 7 Gram Panchayats."
+    },
+    {
+      "block_name": "Naxalbari",
+      "bdo": {
+        "name": "Shri Pranab Chattaraj",
+        "designation": "WBCS (EXE), Block Development Officer",
+        "email": "naxalbaribdo@gmail.com",
+        "phone": "Not publicly listed on official site"
+      },
+      "headquarters": "Naxalbari",
+      "who_to_write_to": {
+        "primary_for_gp_issues": "The Pradhan, [Gram Panchayat Name] Gram Panchayat",
+        "primary_for_block_level": "The Block Development Officer, Naxalbari Development Block",
+        "escalation": "District Magistrate, Darjeeling"
+      },
+      "standard_address_format": "The Block Development Officer\nNaxalbari Development Block\nNaxalbari, Dist. Darjeeling, West Bengal - 734429",
+      "notes": "Siliguri subdivision. Covers 7 Gram Panchayats. Important for tea gardens and border areas."
+    },
+    {
+      "block_name": "Khoribari",
+      "bdo": {
+        "name": "Smt Dipti Shaw",
+        "designation": "WBCS (EXE), Block Development Officer",
+        "email": "bdokharibari@gmail.com",
+        "phone": "Not publicly listed on official site"
+      },
+      "headquarters": "Khoribari",
+      "who_to_write_to": {
+        "primary_for_gp_issues": "The Pradhan, [Gram Panchayat Name] Gram Panchayat",
+        "primary_for_block_level": "The Block Development Officer, Khoribari Development Block",
+        "escalation": "District Magistrate, Darjeeling"
+      },
+      "standard_address_format": "The Block Development Officer\nKhoribari Development Block\nKhoribari, Dist. Darjeeling, West Bengal",
+      "notes": "Siliguri subdivision. Covers 6 Gram Panchayats."
+    },
+    {
+      "block_name": "Phansidewa",
+      "bdo": {
+        "name": "Smt. Banani Majumder",
+        "designation": "WBCS (EXE), Block Development Officer",
+        "email": "bdophansidewa@gmail.com",
+        "phone": "Not publicly listed on official site"
+      },
+      "headquarters": "Phansidewa",
+      "who_to_write_to": {
+        "primary_for_gp_issues": "The Pradhan, [Gram Panchayat Name] Gram Panchayat",
+        "primary_for_block_level": "The Block Development Officer, Phansidewa Development Block",
+        "escalation": "District Magistrate, Darjeeling"
+      },
+      "standard_address_format": "The Block Development Officer\nPhansidewa Development Block\nPhansidewa, Dist. Darjeeling, West Bengal",
+      "notes": "Siliguri subdivision. Covers 9 Gram Panchayats. Has international border proximity."
+    }
+  ]
+}

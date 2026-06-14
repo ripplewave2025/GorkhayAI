@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorkhay AI • Simple UI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', system_ui, sans-serif;
+        }
+
+        .nepali {
+            font-family: 'Noto Sans Devanagari', system_ui, sans-serif;
+        }
+
+        .big-btn {
+            min-height: 64px;
+            font-size: 1.05rem;
+            font-weight: 600;
+            border-radius: 9999px;
+        }
+
+        .giant-mic {
+            width: 132px;
+            height: 132px;
+            border-radius: 9999px;
+            box-shadow: 0 20px 40px -15px rgb(185 28 28 / 0.35);
+        }
+
+        .giant-mic.listening {
+            animation: pulse 1.6s infinite;
+            background-color: #f43f5e;
+        }
+
+        .paper {
+            background: #fffef9;
+            border: 1px solid #e6e0d4;
+            box-shadow: 0 8px 25px -8px rgb(0 0 0 / 0.08);
+        }
+
+        .section-header {
+            font-size: 1.35rem;
+            font-weight: 700;
+            letter-spacing: -0.025em;
+        }
+
+        .nav-active {
+            color: #0f766e;
+            font-weight: 600;
+        }
+
+        .doc-card {
+            transition: all 0.2s ease;
+        }
+
+        .letter-type-card {
+            transition: transform 0.2s ease;
+        }
+
+        .letter-type-card:active {
+            transform: scale(0.97);
+        }
+    </style>
+</head>
+
+<body class="bg-[#f8f5f0] text-[#111] pb-20">
+
+    <!-- Top Bar -->
+    <div class="bg-white border-b sticky top-0 z-50">
+        <div class="max-w-md mx-auto px-4 h-14 flex items-center justify-between">
+            <div class="flex items-center gap-x-3">
+                <div class="w-9 h-9 bg-[#0f766e] text-white rounded-2xl flex items-center justify-center">
+                    <i class="fa-solid fa-file-lines text-xl"></i>
+                </div>
+                <div>
+                    <div class="font-semibold text-xl tracking-tighter">Gorkhay AI</div>
+                    <div class="text-[10px] text-[#666] -mt-1">Speak. We write for you.</div>
+                </div>
+            </div>
+            <button onclick="showProfile()"
+                class="px-3 py-1.5 text-xs font-medium flex items-center gap-x-1.5 rounded-2xl border hover:bg-gray-50">
+                <i class="fa-solid fa-user text-[#0f766e]"></i>
+                <span class="hidden sm:inline">My Details</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="max-w-md mx-auto">
+
+        <!-- ==================== HOME ==================== -->
+        <div id="screen-home" class="px-4 pt-6">
+            <div class="text-center mb-7">
+                <h1 class="text-4xl font-semibold tracking-tighter leading-none mb-2">
+                    बोल्नुहोस्।<br>
+                    <span class="text-[#0f766e]">हामी लेख्छौं।</span>
+                </h1>
+                <p class="text-[#555]">Tap the mic and tell us what letter you need</p>
+            </div>
+
+            <!-- Giant Mic -->
+            <div class="flex justify-center mb-6">
+                <button onclick="startListening()" id="mic-button"
+                    class="giant-mic bg-[#b91c1c] active:scale-95 flex items-center justify-center text-white">
+                    <i class="fa-solid fa-microphone text-6xl"></i>
+                </button>
+            </div>
+
+            <div class="text-center mb-8 text-sm text-[#666]">
+                Example: “आय प्रमाणपत्र चाहिन्छ” or “BDO लाई गुनासो पत्र”
+            </div>
+
+            <!-- Quick Common Requests -->
+            <div>
+                <div class="text-xs font-medium text-[#666] px-1 mb-2.5">Quick requests</div>
+                <div class="grid grid-cols-2 gap-2.5">
+                    <button onclick="quickStart('caste certificate')"
+                        class="letter-type-card bg-white border border-[#e6e0d4] rounded-3xl p-4 flex items-center gap-x-3 text-left">
+                        <div class="w-9 h-9 bg-[#fef3c7] text-[#854d0e] rounded-2xl flex items-center justify-center"><i
+                                class="fa-solid fa-id-card"></i></div>
+                        <div class="font-semibold">Caste Certificate<br><span class="text-xs text-[#666]">जात
+                                प्रमाणपत्र</span></div>
+                    </button>
+                    <button onclick="quickStart('income certificate')"
+                        class="letter-type-card bg-white border border-[#e6e0d4] rounded-3xl p-4 flex items-center gap-x-3 text-left">
+                        <div class="w-9 h-9 bg-[#dcfce7] text-[#166534] rounded-2xl flex items-center justify-center"><i
+                                class="fa-solid fa-wallet"></i></div>
+                        <div class="font-semibold">Income Certificate<br><span class="text-xs text-[#666]">आय
+                                प्रमाणपत्र</span></div>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== MY DOCUMENTS ==================== -->
+        <div id="screen-documents" class="hidden px-4 pt-6">
+            <div class="flex items-center justify-between mb-4">
+                <div class="section-header">My Documents</div>
+                <button onclick="newDocument()"
+                    class="text-sm px-4 py-2 bg-[#0f766e] text-white rounded-2xl flex items-center gap-x-2">
+                    <i class="fa-solid fa-plus"></i> <span>New</span>
+                </button>
+            </div>
+
+            <input type="text" id="doc-search" placeholder="Search your letters..." onkeyup="filterDocuments()"
+                class="w-full mb-4 px-4 py-3 rounded-2xl border text-base">
+
+            <div id="documents-list" class="space-y-3">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+
+        <!-- ==================== SAMPLE LETTERS (Searchable) ==================== -->
+        <div id="screen-samples" class="hidden px-4 pt-6">
+            <div class="section-header mb-1">Sample Letters</div>
+            <p class="text-sm text-[#666] mb-4">Search and choose any type of letter or application</p>
+
+            <input type="text" id="sample-search" placeholder="Search letter types (e.g. caste, BDO, school...)"
+                onkeyup="filterSampleLetters()" class="w-full mb-4 px-4 py-3 rounded-2xl border text-base">
+
+            <div id="sample-letters-grid" class="grid grid-cols-1 gap-2.5">
+                <!-- Populated dynamically by JS -->
+            </div>
+        </div>
+
+        <!-- ==================== GRAM PANCHAYAT ==================== -->
+        <div id="screen-panchayat" class="hidden px-4 pt-6">
+            <div class="section-header mb-1">Gram Panchayats</div>
+            <p class="text-sm text-[#666] mb-4">Select your GP to auto-fill correct address in letters</p>
+
+            <div class="flex gap-2 mb-4">
+                <input type="text" id="gp-search" placeholder="Search GP or place..." onkeyup="filterGramPanchayats()"
+                    class="flex-1 px-4 py-2.5 rounded-2xl border">
+                <select id="gp-block-filter" onchange="filterGramPanchayats()"
+                    class="px-3 py-2.5 rounded-2xl border text-sm">
+                    <option value="">All Blocks</option>
+                    <option value="Takdah">Takdah</option>
+                    <option value="Darjeeling Pulbazar">Darjeeling Pulbazar</option>
+                    <option value="Kurseong">Kurseong</option>
+                    <option value="Mirik">Mirik</option>
+                    <option value="Kalimpong">Kalimpong</option>
+                </select>
+            </div>
+
+            <div id="gp-list" class="space-y-2 max-h-[65vh] overflow-auto">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bottom Navigation -->
+    <div class="fixed bottom-0 left-0 right-0 bg-white border-t max-w-md mx-auto z-50">
+        <div class="flex justify-around py-1.5 text-xs">
+            <button onclick="showScreen('home')" class="flex flex-col items-center px-5 py-1 text-[#0f766e]">
+                <i class="fa-solid fa-home text-xl"></i>
+                <span class="text-[10px] mt-0.5 font-medium">Home</span>
+            </button>
+            <button onclick="showScreen('documents')" class="flex flex-col items-center px-5 py-1">
+                <i class="fa-solid fa-folder text-xl"></i>
+                <span class="text-[10px] mt-0.5">Documents</span>
+            </button>
+            <button onclick="showScreen('samples')" class="flex flex-col items-center px-5 py-1">
+                <i class="fa-solid fa-list text-xl"></i>
+                <span class="text-[10px] mt-0.5">Samples</span>
+            </button>
+            <button onclick="showScreen('panchayat')" class="flex flex-col items-center px-5 py-1">
+                <i class="fa-solid fa-map-marker-alt text-xl"></i>
+                <span class="text-[10px] mt-0.5">Panchayat</span>
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Sample data for Gram Panchayats (based on your uploaded data)
+        const gramPanchayats = [
+            { id: 1, name: "Lamahatta Gram Panchayat", block: "Takdah", place: "Lamahatta Busty", pradhan: "TBD", phone: "TBD" },
+            { id: 2, name: "Takdah Gram Panchayat", block: "Takdah", place: "Takdah", pradhan: "Ramesh Tamang", phone: "9832XXXXXX" },
+            { id: 3, name: "Darjeeling Pulbazar GP", block: "Darjeeling Pulbazar", place: "Pulbazar", pradhan: "TBD", phone: "TBD" },
+            { id: 4, name: "Kurseong GP", block: "Kurseong", place: "Kurseong", pradhan: "TBD", phone: "TBD" },
+            { id: 5, name: "Mirik GP", block: "Mirik", place: "Mirik", pradhan: "TBD", phone: "TBD" },
+            { id: 6, name: "Kalimpong GP", block: "Kalimpong", place: "Kalimpong", pradhan: "TBD", phone: "TBD" },
+        ];
+
+        // Sample letter types (from your gorkhay_AI.md)
+        const sampleLetterTypes = [
+            { type: "Caste Certificate", category: "Government", nepali: "जात प्रमाणपत्र", icon: "fa-id-card", color: "fef3c7" },
+            { type: "Income Certificate", category: "Government", nepali: "आय प्रमाणपत्र", icon: "fa-wallet", color: "dcfce7" },
+            { type: "Residential Certificate", category: "Government", nepali: "बसोबास प्रमाणपत्र", icon: "fa-home", color: "dbeafe" },
+            { type: "Letter to BDO", category: "Government", nepali: "BDO लाई पत्र", icon: "fa-building", color: "e0e7ff" },
+            { type: "Ration Card Application", category: "Government", nepali: "राशन कार्ड", icon: "fa-shopping-basket", color: "fce7f3" },
+            { type: "Land Mutation Request", category: "Land", nepali: "जमिन नामसारी", icon: "fa-map", color: "fef3c7" },
+            { type: "FIR Request", category: "Police", nepali: "FIR निवेदन", icon: "fa-shield-alt", color: "fee2e2" },
+            { type: "School TC Request", category: "School", nepali: "स्कूल TC", icon: "fa-graduation-cap", color: "dbeafe" },
+            { type: "Job Application Letter", category: "Job", nepali: "जागिर निवेदन", icon: "fa-briefcase", color: "e0e7ff" },
+            { type: "Bank Account Opening", category: "Bank", nepali: "बैंक खाता", icon: "fa-university", color: "dcfce7" },
+        ];
+
+        let savedDocuments = [
+            { id: 1, title: "Income Certificate - Upesh Bishwakarma", date: "10 June 2026", type: "Income Certificate" },
+            { id: 2, title: "Caste Certificate Request", date: "5 June 2026", type: "Caste Certificate" },
+        ];
+
+        function showScreen(screen) {
+            document.querySelectorAll('[id^="screen-"]').forEach(el => el.classList.add('hidden'));
+            document.getElementById('screen-' + screen).classList.remove('hidden');
+
+            if (screen === 'documents') renderDocuments();
+            if (screen === 'samples') renderSampleLetters();
+            if (screen === 'panchayat') renderGramPanchayats();
+        }
+
+        function startListening() {
+            const mic = document.getElementById('mic-button');
+            mic.classList.add('listening');
+            mic.innerHTML = `<i class="fa-solid fa-microphone-slash text-6xl"></i>`;
+
+            setTimeout(() => {
+                mic.classList.remove('listening');
+                mic.innerHTML = `<i class="fa-solid fa-microphone text-6xl"></i>`;
+                document.getElementById('heard-text').innerText = "मलाई मेरो परिवारको लागि आय प्रमाणपत्र चाहिन्छ";
+                showScreen('confirm'); // You can expand this flow later
+            }, 2200);
+        }
+
+        function quickStart(type) {
+            alert(`Starting: ${type}\n\nIn real app this will go to confirmation → letter generation.`);
+            // You can expand this to show the confirm screen
+        }
+
+        function renderDocuments() {
+            const container = document.getElementById('documents-list');
+            container.innerHTML = '';
+
+            if (savedDocuments.length === 0) {
+                container.innerHTML = `<div class="text-center py-8 text-[#666]">No documents yet. Create your first letter from Home.</div>`;
+                return;
+            }
+
+            savedDocuments.forEach(doc => {
+                const div = document.createElement('div');
+                div.className = `doc-card bg-white border border-[#e6e0d4] rounded-3xl p-4 flex justify-between items-center`;
+                div.innerHTML = `
+          <div>
+            <div class="font-semibold">${doc.title}</div>
+            <div class="text-xs text-[#666]">${doc.date} • ${doc.type}</div>
+          </div>
+          <div class="flex gap-x-1">
+            <button onclick="openDocument(${doc.id})" class="px-4 py-2 text-sm bg-[#0f766e] text-white rounded-2xl">Open</button>
+            <button onclick="deleteDocument(${doc.id}, this)" class="px-3 py-2 text-sm border text-red-600 rounded-2xl"><i class="fa-solid fa-trash"></i></button>
+          </div>
+        `;
+                container.appendChild(div);
+            });
+        }
+
+        function filterDocuments() {
+            const term = document.getElementById('doc-search').value.toLowerCase();
+            const container = document.getElementById('documents-list');
+            const cards = container.children;
+
+            for (let card of cards) {
+                const text = card.textContent.toLowerCase();
+                card.style.display = text.includes(term) ? '' : 'none';
+            }
+        }
+
+        function renderSampleLetters(filtered = null) {
+            const container = document.getElementById('sample-letters-grid');
+            container.innerHTML = '';
+
+            const list = filtered || sampleLetterTypes;
+
+            list.forEach(item => {
+                const div = document.createElement('div');
+                div.className = `letter-type-card bg-white border border-[#e6e0d4] rounded-3xl p-4 flex items-center gap-x-4 cursor-pointer`;
+                div.onclick = () => quickStart(item.type);
+                div.innerHTML = `
+          <div class="w-10 h-10 bg-[#${item.color}] text-[#0f766e] rounded-2xl flex items-center justify-center flex-shrink-0">
+            <i class="fa-solid ${item.icon} text-xl"></i>
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="font-semibold">${item.type}</div>
+            <div class="text-sm text-[#666]">${item.nepali}</div>
+          </div>
+          <div class="text-xs px-2.5 py-1 bg-gray-100 rounded-full text-[#666]">${item.category}</div>
+        `;
+                container.appendChild(div);
+            });
+        }
+
+        function filterSampleLetters() {
+            const term = document.getElementById('sample-search').value.toLowerCase();
+            const filtered = sampleLetterTypes.filter(item =>
+                item.type.toLowerCase().includes(term) ||
+                item.nepali.includes(term) ||
+                item.category.toLowerCase().includes(term)
+            );
+            renderSampleLetters(filtered);
+        }
+
+        function renderGramPanchayats(filtered = null) {
+            const container = document.getElementById('gp-list');
+            container.innerHTML = '';
+
+            const list = filtered || gramPanchayats;
+
+            list.forEach(gp => {
+                const div = document.createElement('div');
+                div.className = `bg-white border border-[#e6e0d4] rounded-3xl p-4`;
+                div.innerHTML = `
+          <div class="flex justify-between">
+            <div>
+              <div class="font-semibold">${gp.name}</div>
+              <div class="text-xs text-[#666]">${gp.place} • ${gp.block} Block</div>
+            </div>
+            <button onclick="selectGramPanchayat(${gp.id}, this)" class="text-xs px-3 py-1 bg-[#0f766e] text-white rounded-2xl self-start">Use</button>
+          </div>
+          ${gp.pradhan !== 'TBD' ? `<div class="text-xs mt-2 text-[#555]">Pradhan: ${gp.pradhan} (${gp.phone})</div>` : ''}
+        `;
+                container.appendChild(div);
+            });
+        }
+
+        function filterGramPanchayats() {
+            const term = document.getElementById('gp-search').value.toLowerCase();
+            const block = document.getElementById('gp-block-filter').value;
+
+            const filtered = gramPanchayats.filter(gp => {
+                const matchesSearch = gp.name.toLowerCase().includes(term) || gp.place.toLowerCase().includes(term);
+                const matchesBlock = !block || gp.block === block;
+                return matchesSearch && matchesBlock;
+            });
+
+            renderGramPanchayats(filtered);
+        }
+
+        function selectGramPanchayat(id, btn) {
+            const gp = gramPanchayats.find(g => g.id === id);
+            btn.innerHTML = 'Selected ✓';
+            btn.disabled = true;
+
+            setTimeout(() => {
+                alert(`✅ Selected: ${gp.name}\n\nThis GP will now be used to auto-fill the correct "To" address in your letters.`);
+                showScreen('home');
+            }, 800);
+        }
+
+        function openDocument(id) {
+            alert(`Opening document #${id}\n\nIn real app this would load the full letter for viewing, refining, or downloading.`);
+        }
+
+        function deleteDocument(id, element) {
+            if (!confirm("Delete this document?")) return;
+            savedDocuments = savedDocuments.filter(d => d.id !== id);
+            element.closest('.doc-card').remove();
+        }
+
+        function newDocument() {
+            showScreen('home');
+            setTimeout(() => {
+                alert("Go to Home and use the big mic or quick request buttons to create a new letter.");
+            }, 300);
+        }
+
+        function showProfile() {
+            alert("My Details (Profile)\n\nVoice-guided form for:\n• Full Name\n• Father's Name\n• Village + Address\n• Phone\n• Block\n\nSaved locally on your phone.");
+        }
+
+        function initializeApp() {
+            // Show home by default
+            document.getElementById('screen-home').classList.remove('hidden');
+
+            // Preload some documents
+            // (already defined above)
+        }
+
+        window.onload = initializeApp;
+    </script>
+</body>
+
+</html>

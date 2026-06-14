@@ -1,0 +1,1493 @@
+{
+  "metadata": {
+    "title": "Sthalagala Pattice - Enriched 92 Places / Gram Panchayats",
+    "project": "Gorkhay AI",
+    "description": "92 places relevant to Darjeeling hills with official GP mapping, block, codes, and available contacts for smart document pre-filling in voice-first AI tool for illiterate users.",
+    "total_entries": 92,
+    "matched_official_gps": 92,
+    "unmatched_count": 0,
+    "unmatched_places": [],
+    "sources": [
+      "Official Local Government Directory (Village to GP Mapping Excel - Jun 2026)",
+      "darjeeling.gov.in subdivision-blocks",
+      "BDO Rangli Rangliot / Takdah public GP contact table",
+      "West Bengal Panchayat Gazette notifications"
+    ],
+    "last_updated": "2026-06-12",
+    "usage_note": "Use place_name or official_gp_name for fuzzy matching from voice input. Prioritize known phones for Rangli Rangliot block. For unmatched, treat as village-level and resolve to parent GP via BDO or local knowledge."
+  },
+  "places": [
+    {
+      "sl_no": 1,
+      "place_name": "Atharakhai",
+      "official_gp_name": "Atharakhai",
+      "block": "Matigara",
+      "local_body_code": "109148",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 2,
+      "place_name": "Badamtam",
+      "official_gp_name": "Badamtam",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260949",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 3,
+      "place_name": "Bidhannagar-I",
+      "official_gp_name": "Bidhannagar-I",
+      "block": "Phansidewa",
+      "local_body_code": "109165",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 4,
+      "place_name": "Bidhannagar-Ii",
+      "official_gp_name": "Bidhannagar-Ii",
+      "block": "Phansidewa",
+      "local_body_code": "109166",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 5,
+      "place_name": "Bijanbari-Pulbazar",
+      "official_gp_name": "Bijanbari-Pulbazar",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260950",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 6,
+      "place_name": "Binnabari",
+      "official_gp_name": "Binnabari",
+      "block": "Kharibari",
+      "local_body_code": "109130",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 7,
+      "place_name": "Buraganj",
+      "official_gp_name": "Buraganj",
+      "block": "Phansidewa",
+      "local_body_code": "109131",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 8,
+      "place_name": "Champasari",
+      "official_gp_name": "Champasari",
+      "block": "Matigara",
+      "local_body_code": "109149",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 9,
+      "place_name": "Chathat-Bansgaon",
+      "official_gp_name": "Chathat-Bansgaon",
+      "block": "Phansidewa",
+      "local_body_code": "109167",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 10,
+      "place_name": "Chenga Panighata",
+      "official_gp_name": "Chenga Panighata",
+      "block": "Mirik",
+      "local_body_code": "261047",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 11,
+      "place_name": "Chimney-Deorali",
+      "official_gp_name": "Chimney-Deorali",
+      "block": "Kurseong",
+      "local_body_code": "261032",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 12,
+      "place_name": "Chungtong",
+      "official_gp_name": "Chungtong",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260951",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 13,
+      "place_name": "Dadaipani",
+      "official_gp_name": "Dadaipani",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260952",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 14,
+      "place_name": "Darjeeling-I",
+      "official_gp_name": "Darjeeling-I",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260953",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 15,
+      "place_name": "Darjeeling-Ii",
+      "official_gp_name": "Darjeeling-Ii",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260954",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 16,
+      "place_name": "Dhootria Kalej Valley",
+      "official_gp_name": "Dhootria Kalej Valley",
+      "block": "Jorebunglow Sukiapokhri",
+      "local_body_code": "260983",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 17,
+      "place_name": "Duptin",
+      "official_gp_name": "Duptin",
+      "block": "Mirik",
+      "local_body_code": "261048",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 18,
+      "place_name": "Gayabari-I",
+      "official_gp_name": "Gayabari-I",
+      "block": "Kurseong",
+      "local_body_code": "261033",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 19,
+      "place_name": "Gayabari-Ii",
+      "official_gp_name": "Gayabari-Ii",
+      "block": "Kurseong",
+      "local_body_code": "261034",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 20,
+      "place_name": "Gayabari-Iii",
+      "official_gp_name": "Gayabari-Iii",
+      "block": "Kurseong",
+      "local_body_code": "261035",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 21,
+      "place_name": "Ghospukur",
+      "official_gp_name": "Ghospukur",
+      "block": "Phansidewa",
+      "local_body_code": "109169",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 22,
+      "place_name": "Ghum Khasmahal",
+      "official_gp_name": "Ghum Khasmahal",
+      "block": "Jorebunglow Sukiapokhri",
+      "local_body_code": "260984",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 23,
+      "place_name": "Goke-I",
+      "official_gp_name": "Goke-I",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260955",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 24,
+      "place_name": "Goke-Ii",
+      "official_gp_name": "Goke-Ii",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260956",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 25,
+      "place_name": "Gorabari Margarets Hope",
+      "official_gp_name": "Gorabari Margarets Hope",
+      "block": "Jorebunglow Sukiapokhri",
+      "local_body_code": "260985",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 26,
+      "place_name": "Gossaipur",
+      "official_gp_name": "Gossaipur",
+      "block": "Naxalbari",
+      "local_body_code": "109159",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 27,
+      "place_name": "Hatighisa",
+      "official_gp_name": "Hatighisa",
+      "block": "Naxalbari",
+      "local_body_code": "109160",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 28,
+      "place_name": "Hetmuri Singhijhora",
+      "official_gp_name": "Hetmuri Singhijhora",
+      "block": "Phansidewa",
+      "local_body_code": "109170",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 29,
+      "place_name": "Jalas-Nijamtara",
+      "official_gp_name": "Jalas-Nijamtara",
+      "block": "Phansidewa",
+      "local_body_code": "109171",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 30,
+      "place_name": "Jhepi",
+      "official_gp_name": "Jhepi",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260957",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 31,
+      "place_name": "Kaijalia",
+      "official_gp_name": "Kaijalia",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260958",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 32,
+      "place_name": "Kharibari-Panishali",
+      "official_gp_name": "Kharibari-Panishali",
+      "block": "Kharibari",
+      "local_body_code": "109132",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 33,
+      "place_name": "Labdah",
+      "official_gp_name": "Labdah",
+      "block": "Rangli Rangliot",
+      "local_body_code": "261053",
+      "pradhan": {
+        "name": "Sarojanee Rai",
+        "phone": "9614224138"
+      },
+      "executive_assistant": {
+        "name": "Ramesh Chandra Pradhan",
+        "phone": "9734904919"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 34,
+      "place_name": "Lamahatta",
+      "official_gp_name": "Lamahatta",
+      "block": "Rangli Rangliot",
+      "local_body_code": "261054",
+      "pradhan": {
+        "name": "Manju Waiba",
+        "phone": "7866940040"
+      },
+      "executive_assistant": {
+        "name": "Gagan Rai",
+        "phone": "9832579272"
+      },
+      "notes": "⭐ Your area - Lamahatta Busty"
+    },
+    {
+      "sl_no": 35,
+      "place_name": "Lebong Valley-I",
+      "official_gp_name": "Lebong Valley-I",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260959",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 36,
+      "place_name": "Lebong Valley-Ii",
+      "official_gp_name": "Lebong Valley-Ii",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260960",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 37,
+      "place_name": "Lingiamaraybong",
+      "official_gp_name": "Lingiamaraybong",
+      "block": "Jorebunglow Sukiapokhri",
+      "local_body_code": "260986",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 38,
+      "place_name": "Lodhoma-I",
+      "official_gp_name": "Lodhoma-I",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260961",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 39,
+      "place_name": "Lodhoma-Ii",
+      "official_gp_name": "Lodhoma-Ii",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260962",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 40,
+      "place_name": "Lower Bagdogra",
+      "official_gp_name": "Lower Bagdogra",
+      "block": "Phansidewa",
+      "local_body_code": "109161",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 41,
+      "place_name": "Lower Sonada-I",
+      "official_gp_name": "Lower Sonada-I",
+      "block": "Jorebunglow Sukiapokhri",
+      "local_body_code": "260987",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 42,
+      "place_name": "Lower Sonada-Ii",
+      "official_gp_name": "Lower Sonada-Ii",
+      "block": "Jorebunglow Sukiapokhri",
+      "local_body_code": "260988",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 43,
+      "place_name": "Mahanadi",
+      "official_gp_name": "Mahanadi",
+      "block": "Kurseong",
+      "local_body_code": "261036",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 44,
+      "place_name": "Maneydara",
+      "official_gp_name": "Maneydara",
+      "block": "Rangli Rangliot",
+      "local_body_code": "261055",
+      "pradhan": {
+        "name": "Passangkit Lepcha",
+        "phone": "9064853671"
+      },
+      "executive_assistant": {
+        "name": "Manoj Chambling",
+        "phone": "9775963877"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 45,
+      "place_name": "Maniram",
+      "official_gp_name": "Maniram",
+      "block": "Naxalbari",
+      "local_body_code": "109162",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 46,
+      "place_name": "Matigara-I",
+      "official_gp_name": "Matigara-I",
+      "block": "Matigara",
+      "local_body_code": "109150",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 47,
+      "place_name": "Matigara-Ii",
+      "official_gp_name": "Matigara-Ii",
+      "block": "Matigara",
+      "local_body_code": "109151",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 48,
+      "place_name": "Mazuwa",
+      "official_gp_name": "Mazuwa",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260963",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 49,
+      "place_name": "Munda Kothi",
+      "official_gp_name": "Munda Kothi",
+      "block": "Jorebunglow Sukiapokhri",
+      "local_body_code": "260989",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 50,
+      "place_name": "Nakshalbari",
+      "official_gp_name": "Nakshalbari",
+      "block": "Naxalbari",
+      "local_body_code": "109163",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 51,
+      "place_name": "Nayanor",
+      "official_gp_name": "Nayanor",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260964",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 52,
+      "place_name": "Paheligaon School Dara-I",
+      "official_gp_name": "Paheligaon School Dara-I",
+      "block": "Mirik",
+      "local_body_code": "261049",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 53,
+      "place_name": "Paheligaon School Dara-Ii",
+      "official_gp_name": "Paheligaon School Dara-Ii",
+      "block": "Mirik",
+      "local_body_code": "261050",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 54,
+      "place_name": "Pandu",
+      "official_gp_name": "Pandu",
+      "block": "Kurseong",
+      "local_body_code": "261037",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 55,
+      "place_name": "Patharghata",
+      "official_gp_name": "Patharghata",
+      "block": "Matigara",
+      "local_body_code": "109152",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 56,
+      "place_name": "Permaguritamsang",
+      "official_gp_name": "Permaguritamsang",
+      "block": "Jorebunglow Sukiapokhri",
+      "local_body_code": "260990",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 57,
+      "place_name": "Phansidewa Bansgaon Kismat",
+      "official_gp_name": "Phansidewa Bansgaon Kismat",
+      "block": "Phansidewa",
+      "local_body_code": "109168",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 58,
+      "place_name": "Plungdung",
+      "official_gp_name": "Plungdung",
+      "block": "Jorebunglow Sukiapokhri",
+      "local_body_code": "260991",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 59,
+      "place_name": "Pokhriabong-I",
+      "official_gp_name": "Pokhriabong-I",
+      "block": "Jorebunglow Sukiapokhri",
+      "local_body_code": "260992",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 60,
+      "place_name": "Pokhriabong-Ii",
+      "official_gp_name": "Pokhriabong-Ii",
+      "block": "Jorebunglow Sukiapokhri",
+      "local_body_code": "260993",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 61,
+      "place_name": "Pokhriabong-Iii",
+      "official_gp_name": "Pokhriabong-Iii",
+      "block": "Jorebunglow Sukiapokhri",
+      "local_body_code": "260994",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 62,
+      "place_name": "Pubang-Rampuria",
+      "official_gp_name": "Pubang-Rampuria",
+      "block": "Rangli Rangliot",
+      "local_body_code": "261056",
+      "pradhan": {
+        "name": "Sita Rai",
+        "phone": "7602993434"
+      },
+      "executive_assistant": {
+        "name": "Anu Bobzon",
+        "phone": "9775963877"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 63,
+      "place_name": "Rangbhang Gopaldhara",
+      "official_gp_name": "Rangbhang Gopaldhara",
+      "block": "Jorebunglow Sukiapokhri",
+      "local_body_code": "260995",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 64,
+      "place_name": "Rangbul",
+      "official_gp_name": "Rangbul",
+      "block": "Jorebunglow Sukiapokhri",
+      "local_body_code": "260996",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 65,
+      "place_name": "Rangit-I",
+      "official_gp_name": "Rangit-I",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260965",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 66,
+      "place_name": "Rangit-Ii",
+      "official_gp_name": "Rangit-Ii",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260966",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 67,
+      "place_name": "Rangli",
+      "official_gp_name": "Rangli",
+      "block": "Rangli Rangliot",
+      "local_body_code": "261057",
+      "pradhan": {
+        "name": "Santabir Subba",
+        "phone": "7679551924"
+      },
+      "executive_assistant": {
+        "name": "Biden Rai",
+        "phone": "9832361130"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 68,
+      "place_name": "Raniganj-Panishali",
+      "official_gp_name": "Raniganj-Panishali",
+      "block": "Kharibari",
+      "local_body_code": "109133",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 69,
+      "place_name": "Relling",
+      "official_gp_name": "Relling",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260967",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 70,
+      "place_name": "Ressep",
+      "official_gp_name": "Ressep",
+      "block": "Rangli Rangliot",
+      "local_body_code": "261058",
+      "pradhan": {
+        "name": "Pushkar Tamang",
+        "phone": "8927085803"
+      },
+      "executive_assistant": {
+        "name": "Ramesh Chandra Pradhan",
+        "phone": "9734904919"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 71,
+      "place_name": "Rimbik",
+      "official_gp_name": "Rimbik",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260968",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 72,
+      "place_name": "Rishirhatbloom Field",
+      "official_gp_name": "Rishirhatbloom Field",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260969",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 73,
+      "place_name": "Rongchong",
+      "official_gp_name": "Rongchong",
+      "block": "Rangli Rangliot",
+      "local_body_code": "261059",
+      "pradhan": {
+        "name": "Mamta Thapa",
+        "phone": "9775927230"
+      },
+      "executive_assistant": {
+        "name": "Biden Rai",
+        "phone": "9832361130"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 74,
+      "place_name": "Seetong-I",
+      "official_gp_name": "Seetong-I",
+      "block": "Kurseong",
+      "local_body_code": "261038",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 75,
+      "place_name": "Seetong-Ii",
+      "official_gp_name": "Seetong-Ii",
+      "block": "Kurseong",
+      "local_body_code": "261039",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 76,
+      "place_name": "Settong-Iii",
+      "official_gp_name": "Settong-Iii",
+      "block": "Rangli Rangliot",
+      "local_body_code": "261040",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 77,
+      "place_name": "Shivakhola",
+      "official_gp_name": "Shivakhola",
+      "block": "Kurseong",
+      "local_body_code": "261041",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 78,
+      "place_name": "Singrimatam",
+      "official_gp_name": "Singrimatam",
+      "block": "Rangli Rangliot",
+      "local_body_code": "261060",
+      "pradhan": {
+        "name": "Nimesh Mangrati",
+        "phone": "6296573805"
+      },
+      "executive_assistant": {
+        "name": "Manoj Chambling",
+        "phone": "9775963877"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 79,
+      "place_name": "Singtamn Soom",
+      "official_gp_name": "Singtamn Soom",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260970",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 80,
+      "place_name": "Sirikhola-Daragaon",
+      "official_gp_name": "Sirikhola-Daragaon",
+      "block": "Darjeeling Pulbazar",
+      "local_body_code": "260971",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 81,
+      "place_name": "Soureni-I",
+      "official_gp_name": "Soureni-I",
+      "block": "Mirik",
+      "local_body_code": "261051",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 82,
+      "place_name": "Soureni-Ii",
+      "official_gp_name": "Soureni-Ii",
+      "block": "Mirik",
+      "local_body_code": "261052",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 83,
+      "place_name": "St. Marrys-I",
+      "official_gp_name": "St. Marrys-I",
+      "block": "Kurseong",
+      "local_body_code": "261042",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 84,
+      "place_name": "St. Marrys-Ii",
+      "official_gp_name": "St. Marrys-Ii",
+      "block": "Kurseong",
+      "local_body_code": "261043",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 85,
+      "place_name": "St. Marrys-Iii",
+      "official_gp_name": "St. Marrys-Iii",
+      "block": "Kurseong",
+      "local_body_code": "261044",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 86,
+      "place_name": "Sukhia-Simana",
+      "official_gp_name": "Sukhia-Simana",
+      "block": "Jorebunglow Sukiapokhri",
+      "local_body_code": "260997",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 87,
+      "place_name": "Sukna",
+      "official_gp_name": "Sukna",
+      "block": "Kurseong",
+      "local_body_code": "261045",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 88,
+      "place_name": "Tackling-I",
+      "official_gp_name": "Tackling-I",
+      "block": "Rangli Rangliot",
+      "local_body_code": "261061",
+      "pradhan": {
+        "name": "Chandni Tamang",
+        "phone": "8016590674"
+      },
+      "executive_assistant": {
+        "name": "Gagan Rai",
+        "phone": "9832579272"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 89,
+      "place_name": "Tackling-Ii",
+      "official_gp_name": "Tackling-Ii",
+      "block": "Rangli Rangliot",
+      "local_body_code": "261062",
+      "pradhan": {
+        "name": "Swarnim Tamang",
+        "phone": "7602282889"
+      },
+      "executive_assistant": {
+        "name": "Mithu Khati",
+        "phone": "8670446704"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 90,
+      "place_name": "Takdah",
+      "official_gp_name": "Takdah",
+      "block": "Rangli Rangliot",
+      "local_body_code": "261063",
+      "pradhan": {
+        "name": "Nancy Rongong Lepcha",
+        "phone": "9609589361"
+      },
+      "executive_assistant": {
+        "name": "Keshng Lama / Anu Thatal",
+        "phone": "7679332609 / 9547636115"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 91,
+      "place_name": "Upper Bagdogra",
+      "official_gp_name": "Upper Bagdogra",
+      "block": "Naxalbari",
+      "local_body_code": "109164",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    },
+    {
+      "sl_no": 92,
+      "place_name": "Upper Sonada",
+      "official_gp_name": "Upper Sonada",
+      "block": "Jorebunglow Sukiapokhri",
+      "local_body_code": "260998",
+      "pradhan": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "executive_assistant": {
+        "name": "TBD - verify with BDO",
+        "phone": "TBD"
+      },
+      "notes": ""
+    }
+  ]
+}

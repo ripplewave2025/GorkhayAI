@@ -1,0 +1,377 @@
+{
+  "metadata": {
+    "title": "Darjeeling District - Comprehensive Office Directory",
+    "district": "Darjeeling",
+    "state": "West Bengal",
+    "last_updated": "2026-06-13",
+    "purpose": "Hierarchical office directory for Gorkhay AI to help users write letters to the correct offices."
+  },
+  "categories": [
+    {
+      "id": "sdo",
+      "label": "Sub-Divisional Officer (SDO)",
+      "label_ne": "उप-विभागीय अधिकारी",
+      "icon": "⚖️",
+      "description": "Sub-division level administration, land records, revenue matters",
+      "offices": [
+        {
+          "name": "SDO, Darjeeling Sadar",
+          "designation": "Sub-Divisional Officer",
+          "address": "Office of the Sub-Divisional Officer\nDarjeeling Sadar\nDist. Darjeeling, West Bengal - 734101",
+          "salutation": "The Sub-Divisional Officer\nDarjeeling Sadar Sub-Division\nDist. Darjeeling, West Bengal",
+          "notes": "Covers Darjeeling town and surrounding areas"
+        },
+        {
+          "name": "SDO, Kurseong",
+          "designation": "Sub-Divisional Officer",
+          "address": "Office of the Sub-Divisional Officer\nKurseong\nDist. Darjeeling, West Bengal - 734203",
+          "salutation": "The Sub-Divisional Officer\nKurseong Sub-Division\nDist. Darjeeling, West Bengal",
+          "notes": "Covers Kurseong town and surrounding blocks"
+        },
+        {
+          "name": "SDO, Siliguri",
+          "designation": "Sub-Divisional Officer",
+          "address": "Office of the Sub-Divisional Officer\nSiliguri\nDist. Darjeeling, West Bengal - 734001",
+          "salutation": "The Sub-Divisional Officer\nSiliguri Sub-Division\nDist. Darjeeling, West Bengal",
+          "notes": "Covers Siliguri and surrounding blocks (Matigara, Naxalbari, Khoribari, Phansidewa)"
+        },
+        {
+          "name": "SDO, Mirik",
+          "designation": "Sub-Divisional Officer",
+          "address": "Office of the Sub-Divisional Officer\nMirik\nDist. Darjeeling, West Bengal - 734214",
+          "salutation": "The Sub-Divisional Officer\nMirik Sub-Division\nDist. Darjeeling, West Bengal",
+          "notes": "Covers Mirik block"
+        }
+      ]
+    },
+    {
+      "id": "dm",
+      "label": "District Magistrate (DM) & District Offices",
+      "label_ne": "जिल्ला अधिकारी (DM)",
+      "icon": "🏛️",
+      "description": "District-level administration, law & order, disaster management, certificates",
+      "offices": [
+        {
+          "name": "District Magistrate, Darjeeling",
+          "designation": "District Magistrate & Collector",
+          "address": "Office of the District Magistrate\nDarjeeling\nDist. Darjeeling, West Bengal - 734101",
+          "salutation": "The District Magistrate\nDarjeeling District\nDist. Darjeeling, West Bengal",
+          "notes": "Highest district authority. For escalated complaints, district-level certificates, disaster relief."
+        },
+        {
+          "name": "Additional District Magistrate (ADM)",
+          "designation": "Additional District Magistrate",
+          "address": "Office of the ADM\nDarjeeling\nDist. Darjeeling, West Bengal - 734101",
+          "salutation": "The Additional District Magistrate\nDarjeeling District\nDist. Darjeeling, West Bengal",
+          "notes": "Handles delegated matters from DM"
+        },
+        {
+          "name": "District Land & Land Reforms Officer (DLLRO)",
+          "designation": "DLLRO",
+          "address": "Office of the DLLRO\nDarjeeling\nDist. Darjeeling, West Bengal",
+          "salutation": "The District Land & Land Reforms Officer\nDarjeeling District\nDist. Darjeeling, West Bengal",
+          "notes": "Land records, mutation at district level, land disputes"
+        }
+      ]
+    },
+    {
+      "id": "police",
+      "label": "Police Stations",
+      "label_ne": "प्रहरी चौकी",
+      "icon": "👮",
+      "description": "FIR, GD entry, complaints, missing reports, theft reports",
+      "offices": [
+        {
+          "name": "Darjeeling Sadar Police Station",
+          "designation": "Officer-in-Charge",
+          "address": "Darjeeling Sadar Police Station\nDarjeeling, West Bengal - 734101",
+          "salutation": "The Officer-in-Charge\nDarjeeling Sadar Police Station\nDist. Darjeeling, West Bengal",
+          "notes": "Main police station for Darjeeling town"
+        },
+        {
+          "name": "Jorebunglow Police Station",
+          "designation": "Officer-in-Charge",
+          "address": "Jorebunglow Police Station\nJorebunglow, Dist. Darjeeling, West Bengal",
+          "salutation": "The Officer-in-Charge\nJorebunglow Police Station\nDist. Darjeeling, West Bengal",
+          "notes": "Covers Jorebunglow, Ghoom, Sonada areas"
+        },
+        {
+          "name": "Sukhia Pokhri Police Station",
+          "designation": "Officer-in-Charge",
+          "address": "Sukhia Pokhri Police Station\nSukhia Pokhri, Dist. Darjeeling, West Bengal",
+          "salutation": "The Officer-in-Charge\nSukhia Pokhri Police Station\nDist. Darjeeling, West Bengal",
+          "notes": "Covers Sukhia Pokhri block area"
+        },
+        {
+          "name": "Kurseong Police Station",
+          "designation": "Officer-in-Charge",
+          "address": "Kurseong Police Station\nKurseong, Dist. Darjeeling, West Bengal - 734203",
+          "salutation": "The Officer-in-Charge\nKurseong Police Station\nDist. Darjeeling, West Bengal",
+          "notes": "Main station for Kurseong town"
+        },
+        {
+          "name": "Mirik Police Station",
+          "designation": "Officer-in-Charge",
+          "address": "Mirik Police Station\nMirik, Dist. Darjeeling, West Bengal - 734214",
+          "salutation": "The Officer-in-Charge\nMirik Police Station\nDist. Darjeeling, West Bengal",
+          "notes": "Covers Mirik area"
+        },
+        {
+          "name": "Siliguri Police Station",
+          "designation": "Officer-in-Charge",
+          "address": "Siliguri Police Station\nSiliguri, Dist. Darjeeling, West Bengal - 734001",
+          "salutation": "The Officer-in-Charge\nSiliguri Police Station\nDist. Darjeeling, West Bengal",
+          "notes": "Main station for Siliguri city"
+        },
+        {
+          "name": "Matigara Police Station",
+          "designation": "Officer-in-Charge",
+          "address": "Matigara Police Station\nMatigara, Dist. Darjeeling, West Bengal",
+          "salutation": "The Officer-in-Charge\nMatigara Police Station\nDist. Darjeeling, West Bengal",
+          "notes": "Covers Matigara block area"
+        },
+        {
+          "name": "Naxalbari Police Station",
+          "designation": "Officer-in-Charge",
+          "address": "Naxalbari Police Station\nNaxalbari, Dist. Darjeeling, West Bengal - 734429",
+          "salutation": "The Officer-in-Charge\nNaxalbari Police Station\nDist. Darjeeling, West Bengal",
+          "notes": "Covers Naxalbari block area, border areas"
+        },
+        {
+          "name": "Khoribari Police Station",
+          "designation": "Officer-in-Charge",
+          "address": "Khoribari Police Station\nKhoribari, Dist. Darjeeling, West Bengal",
+          "salutation": "The Officer-in-Charge\nKhoribari Police Station\nDist. Darjeeling, West Bengal",
+          "notes": "Covers Khoribari block area"
+        },
+        {
+          "name": "Phansidewa Police Station",
+          "designation": "Officer-in-Charge",
+          "address": "Phansidewa Police Station\nPhansidewa, Dist. Darjeeling, West Bengal",
+          "salutation": "The Officer-in-Charge\nPhansidewa Police Station\nDist. Darjeeling, West Bengal",
+          "notes": "Covers Phansidewa block, border proximity"
+        },
+        {
+          "name": "Takdah Police Outpost",
+          "designation": "In-Charge",
+          "address": "Takdah Police Outpost\nTakdah, Dist. Darjeeling, West Bengal",
+          "salutation": "The In-Charge\nTakdah Police Outpost\nDist. Darjeeling, West Bengal",
+          "notes": "Outpost under Rangli Rangliot area"
+        }
+      ]
+    },
+    {
+      "id": "municipality",
+      "label": "Municipality",
+      "label_ne": "नगरपालिका",
+      "icon": "🏙️",
+      "description": "Urban civic services, birth/death certificates, trade licenses, property tax",
+      "offices": [
+        {
+          "name": "Darjeeling Municipality",
+          "designation": "Chairman / Administrator",
+          "address": "Darjeeling Municipality\nDarjeeling, West Bengal - 734101",
+          "salutation": "The Chairman\nDarjeeling Municipality\nDarjeeling, West Bengal",
+          "notes": "Urban civic body for Darjeeling town"
+        },
+        {
+          "name": "Siliguri Municipal Corporation (SMC)",
+          "designation": "Mayor / Commissioner",
+          "address": "Siliguri Municipal Corporation\nSiliguri, Dist. Darjeeling, West Bengal - 734001",
+          "salutation": "The Commissioner\nSiliguri Municipal Corporation\nSiliguri, Dist. Darjeeling, West Bengal",
+          "notes": "Largest urban body in the district"
+        },
+        {
+          "name": "Kurseong Municipality",
+          "designation": "Chairman / Administrator",
+          "address": "Kurseong Municipality\nKurseong, Dist. Darjeeling, West Bengal - 734203",
+          "salutation": "The Chairman\nKurseong Municipality\nKurseong, Dist. Darjeeling, West Bengal",
+          "notes": "Urban civic body for Kurseong town"
+        },
+        {
+          "name": "Mirik Municipality (Notified Area)",
+          "designation": "Chairman / Administrator",
+          "address": "Mirik Municipality\nMirik, Dist. Darjeeling, West Bengal - 734214",
+          "salutation": "The Chairman\nMirik Notified Area\nMirik, Dist. Darjeeling, West Bengal",
+          "notes": "Civic administration for Mirik"
+        }
+      ]
+    },
+    {
+      "id": "banks",
+      "label": "Banks",
+      "label_ne": "बैंक",
+      "icon": "🏦",
+      "description": "KYC, account opening, loans, certificates, pension",
+      "offices": [
+        {
+          "name": "State Bank of India (SBI) - Darjeeling",
+          "designation": "Branch Manager",
+          "address": "State Bank of India\nDarjeeling Branch\nDarjeeling, West Bengal - 734101",
+          "salutation": "The Branch Manager\nState Bank of India\nDarjeeling Branch, Darjeeling, West Bengal",
+          "notes": "Main SBI branch in Darjeeling"
+        },
+        {
+          "name": "State Bank of India (SBI) - Siliguri",
+          "designation": "Branch Manager",
+          "address": "State Bank of India\nSiliguri Main Branch\nSiliguri, Dist. Darjeeling, West Bengal",
+          "salutation": "The Branch Manager\nState Bank of India\nSiliguri Main Branch, Siliguri, Dist. Darjeeling, West Bengal",
+          "notes": "Main SBI branch in Siliguri"
+        },
+        {
+          "name": "Central Bank of India - Darjeeling",
+          "designation": "Branch Manager",
+          "address": "Central Bank of India\nDarjeeling Branch\nDarjeeling, West Bengal",
+          "salutation": "The Branch Manager\nCentral Bank of India\nDarjeeling Branch, Darjeeling, West Bengal",
+          "notes": ""
+        },
+        {
+          "name": "Punjab National Bank (PNB) - Darjeeling",
+          "designation": "Branch Manager",
+          "address": "Punjab National Bank\nDarjeeling Branch\nDarjeeling, West Bengal",
+          "salutation": "The Branch Manager\nPunjab National Bank\nDarjeeling Branch, Darjeeling, West Bengal",
+          "notes": ""
+        },
+        {
+          "name": "Darjeeling District Central Co-op Bank",
+          "designation": "Branch Manager",
+          "address": "Darjeeling District Central Co-operative Bank\nDarjeeling, West Bengal",
+          "salutation": "The Branch Manager\nDarjeeling District Central Co-operative Bank\nDarjeeling, West Bengal",
+          "notes": "Important for agricultural loans and cooperative banking"
+        }
+      ]
+    },
+    {
+      "id": "hospitals",
+      "label": "Hospitals / Health Offices",
+      "label_ne": "अस्पताल / स्वास्थ्य कार्यालय",
+      "icon": "🏥",
+      "description": "Medical certificates, disability certificates, health complaints, medical reimbursement",
+      "offices": [
+        {
+          "name": "Darjeeling District Hospital",
+          "designation": "Superintendent / Chief Medical Officer",
+          "address": "Darjeeling District Hospital\nDarjeeling, West Bengal - 734101",
+          "salutation": "The Superintendent\nDarjeeling District Hospital\nDarjeeling, West Bengal",
+          "notes": "Main government hospital in Darjeeling"
+        },
+        {
+          "name": "Kurseong Sub-Divisional Hospital",
+          "designation": "Medical Superintendent",
+          "address": "Kurseong Sub-Divisional Hospital\nKurseong, Dist. Darjeeling, West Bengal",
+          "salutation": "The Medical Superintendent\nKurseong Sub-Divisional Hospital\nKurseong, Dist. Darjeeling, West Bengal",
+          "notes": ""
+        },
+        {
+          "name": "North Bengal Medical College (NBMC), Siliguri",
+          "designation": "Principal / Medical Superintendent",
+          "address": "North Bengal Medical College\nSuspari Para, Siliguri\nDist. Darjeeling, West Bengal",
+          "salutation": "The Medical Superintendent\nNorth Bengal Medical College & Hospital\nSiliguri, Dist. Darjeeling, West Bengal",
+          "notes": "Major medical college and hospital for the region"
+        },
+        {
+          "name": "Siliguri District Hospital",
+          "designation": "Superintendent",
+          "address": "Siliguri District Hospital\nSiliguri, Dist. Darjeeling, West Bengal",
+          "salutation": "The Superintendent\nSiliguri District Hospital\nSiliguri, Dist. Darjeeling, West Bengal",
+          "notes": ""
+        },
+        {
+          "name": "Chief Medical Officer of Health (CMOH)",
+          "designation": "Chief Medical Officer of Health",
+          "address": "Office of the CMOH\nDarjeeling, West Bengal",
+          "salutation": "The Chief Medical Officer of Health\nDarjeeling District\nDarjeeling, West Bengal",
+          "notes": "District health administration, public health schemes"
+        }
+      ]
+    },
+    {
+      "id": "schools",
+      "label": "Schools & Colleges",
+      "label_ne": "विद्यालय र कलेज",
+      "icon": "🎓",
+      "description": "TC, bonafide, character certificates, leave applications, admission requests",
+      "offices": [
+        {
+          "name": "Your School / College",
+          "designation": "Principal / Headmaster",
+          "address": "[School/College Name]\n[Address]\nDist. Darjeeling, West Bengal",
+          "salutation": "The Principal\n[School/College Name]\nDist. Darjeeling, West Bengal",
+          "notes": "Replace [School/College Name] with the actual institution name. Common schools: St. Joseph's, Loreto Convent, Mt. Hermon, Darjeeling Govt. College, etc."
+        },
+        {
+          "name": "District Inspector of Schools (DI)",
+          "designation": "District Inspector of Schools",
+          "address": "Office of the DI of Schools\nDarjeeling, West Bengal",
+          "salutation": "The District Inspector of Schools\nDarjeeling District\nDarjeeling, West Bengal",
+          "notes": "For issues relating to school administration, teacher complaints, board-level matters"
+        },
+        {
+          "name": "District Project Officer, SSA/Samagra Shiksha",
+          "designation": "District Project Officer",
+          "address": "Office of the DPO, Samagra Shiksha\nDarjeeling, West Bengal",
+          "salutation": "The District Project Officer\nSamagra Shiksha Abhiyan\nDarjeeling District, West Bengal",
+          "notes": "For education scheme related applications"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "label": "Other Common Offices",
+      "label_ne": "अन्य कार्यालय",
+      "icon": "📮",
+      "description": "RTI, Treasury, Post Office, Electricity, Telecom, Railways",
+      "offices": [
+        {
+          "name": "Public Information Officer (RTI)",
+          "designation": "Public Information Officer",
+          "address": "[Concerned Department]\nDarjeeling / Siliguri, West Bengal",
+          "salutation": "The Public Information Officer\n[Concerned Department Name]\nDist. Darjeeling, West Bengal",
+          "notes": "For RTI applications. Address to the PIO of the specific department."
+        },
+        {
+          "name": "Treasury Officer, Darjeeling",
+          "designation": "Treasury Officer",
+          "address": "District Treasury\nDarjeeling, West Bengal",
+          "salutation": "The Treasury Officer\nDarjeeling District Treasury\nDarjeeling, West Bengal",
+          "notes": "Pension, salary, and government financial matters"
+        },
+        {
+          "name": "Head Post Office, Darjeeling",
+          "designation": "Postmaster",
+          "address": "Head Post Office\nDarjeeling, West Bengal - 734101",
+          "salutation": "The Postmaster\nHead Post Office\nDarjeeling, West Bengal",
+          "notes": ""
+        },
+        {
+          "name": "WBSEDCL (Electricity), Darjeeling",
+          "designation": "Assistant Engineer / SDO",
+          "address": "WBSEDCL Office\nDarjeeling Division\nDarjeeling, West Bengal",
+          "salutation": "The Assistant Engineer\nWBSEDCL, Darjeeling Division\nDarjeeling, West Bengal",
+          "notes": "Electricity connection, complaints, billing issues"
+        },
+        {
+          "name": "BSNL / Telecom, Darjeeling",
+          "designation": "Sub-Divisional Engineer",
+          "address": "BSNL Office\nDarjeeling, West Bengal",
+          "salutation": "The Sub-Divisional Engineer\nBSNL, Darjeeling\nDarjeeling, West Bengal",
+          "notes": "Telecom complaints, landline, broadband"
+        },
+        {
+          "name": "NFR (Railways), Siliguri/NJP",
+          "designation": "Station Master / Divisional Manager",
+          "address": "New Jalpaiguri Railway Station (NJP)\nSiliguri, Dist. Darjeeling, West Bengal",
+          "salutation": "The Station Master\nNew Jalpaiguri (NJP) Railway Station\nSiliguri, Dist. Darjeeling, West Bengal",
+          "notes": "Railway complaints, refunds, services"
+        },
+        {
+          "name": "Consumer Forum, Darjeeling",
+          "designation": "President",
+          "address": "District Consumer Disputes Redressal Commission\nDarjeeling, West Bengal",
+          "salutation": "The President\nDistrict Consumer Disputes Redressal Commission\nDarjeeling, West Bengal",
+          "notes": "Consumer complaints for goods and services"
+        }
+      ]
+    }
+  ]
+}
